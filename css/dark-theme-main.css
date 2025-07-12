@@ -1,4 +1,4 @@
-/* dark-theme-main.css - Aesthetic Pinkish Theme */
+
 
 :root {
   --main-bg: #2a1e2e;
@@ -140,13 +140,6 @@ hr {
   }
 }
 
-/* 💻 Projects Section Styling */
-
-/* 🎨 Projects Section Polished Layout */
-
-/* 🔧 Project Section: Side-by-Side Fix */
-
-/* 🎯 Final Polished Project Section */
 
 #projects {
   background-color: #2e1f30;
@@ -159,7 +152,6 @@ hr {
   gap: 80px;
 }
 
-/* Make each project row behave like a wrapped flex card */
 .project-wrapper .row {
   display: flex;
   flex-direction: row;
@@ -173,7 +165,7 @@ hr {
   box-shadow: 0 12px 25px rgba(255, 192, 203, 0.15);
 }
 
-/* Text box styling */
+
 .project-wrapper__text {
   flex: 1 1 50%;
   max-width: 660px;
@@ -196,14 +188,14 @@ hr {
   line-height: 1.7;
 }
 
-/* Button container */
+
 .project-wrapper__text-btns {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
 }
 
-/* Image wrapper */
+
 .project-wrapper__image {
   flex: 1 1 50%;
   max-width: 660px;
@@ -228,7 +220,7 @@ hr {
   display: block;
 }
 
-/* Mobile layout stack */
+
 @media (max-width: 991px) {
   .project-wrapper .row {
     flex-direction: column;
@@ -294,8 +286,6 @@ hr {
   background-color: #f8d1dc;
 }
 
-/* 💌 Perfectly Centered Contact Section */
-
 #contact {
   background-color: #2a1e2e;
   display: flex;
@@ -318,7 +308,7 @@ hr {
   max-width: 600px;
 }
 
-/* Form wrapper */
+
 .contact-form {
   width: 100%;
   max-width: 600px;
@@ -384,7 +374,6 @@ hr {
   transform: scale(1.03);
 }
 
-/* 🎉 Toast Notification Style */
 .toast {
   position: fixed;
   bottom: 30px;
