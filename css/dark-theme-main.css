@@ -403,3 +403,20 @@ hr {
   color: #fff;
 }
 
+.project-tags {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.project-tag {
+  background-color: #f8d1dc;
+  color: #2a1e2e;
+  padding: 5px 12px;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  box-shadow: 0 2px 5px rgba(255, 192, 203, 0.2);
+  user-select: none;
+}
